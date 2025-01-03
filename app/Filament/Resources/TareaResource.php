@@ -110,6 +110,7 @@ class TareaResource extends Resource
     }
 
     public static function getPages(): array
+    
     {
         return [
             'index' => Pages\ListTareas::route('/'),
