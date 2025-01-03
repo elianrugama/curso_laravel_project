@@ -1,0 +1,416 @@
+{
+    "modulos": {
+        "pos": {
+            "url": "/POS",
+            "icono": "ti ti-credit-card",
+            "active": true,
+            "nombre": "POS"
+        },
+        "salidas": {
+            "url": "/salidas",
+            "icono": "ti ti-shopping-cart",
+            "active": true,
+            "nombre": "Salidas",
+            "permisos": {
+                "ver": true,
+                "crear": true,
+                "editar": true,
+                "eliminar": true
+            }
+        },
+        "clientes": {
+            "url": "/clientes",
+            "icono": "ti ti-users",
+            "active": true,
+            "campos": {
+                "pais": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "email": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "ciudad": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "codigo": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "nombre": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "telefono": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "direccion": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "identificacion": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                }
+            },
+            "nombre": "Clientes",
+            "permisos": {
+                "ver": true,
+                "crear": true,
+                "editar": true,
+                "eliminar": true
+            }
+        },
+        "creditos": {
+            "url": "/creditos",
+            "icono": "ti ti-credit-card",
+            "active": true,
+            "nombre": "Creditos",
+            "permisos": {
+                "ver": true,
+                "crear": true,
+                "abonar": true,
+                "editar": true,
+                "eliminar": true
+            }
+        },
+        "entradas": {
+            "url": "/entradas",
+            "icono": "ti ti-shopping-cart",
+            "active": true,
+            "nombre": "Entradas",
+            "permisos": {
+                "ver": true,
+                "crear": true,
+                "editar": true,
+                "eliminar": true
+            }
+        },
+        "facturas": {
+            "url": "/facturas",
+            "icono": "ti ti-credit-card",
+            "active": true,
+            "nombre": "Facturas",
+            "permisos": {
+                "ver": true,
+                "crear": true,
+                "editar": true,
+                "eliminar": true
+            }
+        },
+        "articulos": {
+            "url": "/articulos",
+            "icono": "ti ti-package",
+            "active": true,
+            "campos": {
+                "color": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "costo": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "marca": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "stock": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "talla": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "codigo": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "estado": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "estilo": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "imagen": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "nombre": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "precio": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "unidad": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "categoria": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "proveedor": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "descripcion": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "stock_unidad": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "precio_mayoreo": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                }
+            },
+            "nombre": "Articulos",
+            "permisos": {
+                "ver": true,
+                "crear": true,
+                "editar": true,
+                "eliminar": true
+            }
+        },
+        "proveedores": {
+            "url": "/proveedores",
+            "icono": "ti ti-truck",
+            "active": true,
+            "campos": {
+                "pais": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "email": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "ciudad": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "codigo": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "nombre": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "telefono": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "direccion": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                },
+                "identificacion": {
+                    "active": true,
+                    "permisos": {
+                        "ver": true,
+                        "crear": true,
+                        "editar": true,
+                        "eliminar": true
+                    }
+                }
+            },
+            "nombre": "Proveedores",
+            "permisos": {
+                "ver": true,
+                "crear": true,
+                "editar": true,
+                "eliminar": true
+            }
+        },
+        "cuentas_por_pagar": {
+            "url": "/cuentas_por_pagar",
+            "icono": "ti ti-credit-card",
+            "active": true,
+            "nombre": "Cuentas por pagar",
+            "permisos": {
+                "ver": true,
+                "crear": true,
+                "editar": true,
+                "eliminar": true
+            }
+        },
+        "cuentas_por_cobrar": {
+            "url": "/cuentas_por_cobrar",
+            "icono": "ti ti-credit-card",
+            "active": true,
+            "nombre": "Cuentas por cobrar"
+        }
+    }
+}
